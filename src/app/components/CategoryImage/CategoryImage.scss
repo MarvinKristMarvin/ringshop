@@ -1,0 +1,33 @@
+@use "src/app/_variables.scss" as *;
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap");
+
+.CategoryImage {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.1s ease-in-out;
+  }
+
+  &:hover img {
+    transform: scale(1.1); // Zoom in slightly
+  }
+  span {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $backgroundColor;
+    font-size: 1.25rem;
+    font-weight: 400;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    @media (max-width: 1000px) {
+      font-size: 0.75rem;
+      letter-spacing: 4px;
+    }
+  }
+}

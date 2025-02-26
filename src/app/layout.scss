@@ -1,0 +1,173 @@
+@use "src/app/_variables.scss" as *;
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  /* Home */
+  .categories {
+    background-color: $foregroundColor;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.125rem;
+    padding: 0.125rem;
+    @media (max-width: 600px) {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      gap: 0.125rem;
+      padding: 0.125rem;
+    }
+  }
+
+  .BandsPage {
+    background-color: $backgroundColor;
+    width: 100%;
+    h2 {
+      text-align: center;
+      margin-top: 2rem;
+      @media (max-width: 1000px) {
+        margin-top: 1rem;
+      }
+    }
+    .buttons {
+      display: flex;
+      justify-content: flex-end;
+      border-bottom: solid 1px $softColor;
+
+      button {
+        padding: 1.25rem;
+        padding-inline: 4rem;
+        border: none;
+        border-left: solid 1px $softColor;
+        background-color: $backgroundColor;
+        border-radius: 0;
+        box-shadow: none;
+        letter-spacing: 2px;
+
+        &:hover {
+          cursor: pointer;
+          background-color: $ultraSoftColor;
+        }
+        @media (max-width: 600px) {
+          flex: 1;
+        }
+      }
+    }
+    .articles {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      padding: 2rem;
+      gap: 2rem;
+      @media (max-width: 1400px) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      @media (max-width: 1000px) {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 1rem;
+        gap: 1rem;
+      }
+    }
+  }
+
+  .ProductPage {
+    background-color: $backgroundColor;
+    width: 100%;
+    font-family: "Jost", sans-serif;
+    .product {
+      width: 100%;
+      display: flex;
+      .imageContainer {
+        width: 50%;
+        img {
+          width: 100%;
+          display: block;
+        }
+      }
+      .informationsContainer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        letter-spacing: 1px;
+        h2 {
+          padding: 1rem;
+          padding-bottom: 0.25rem;
+          letter-spacing: 2px;
+          font-weight: 600;
+        }
+        span {
+          letter-spacing: 2px;
+          font-weight: 400;
+          font-size: 1.25rem;
+          color: $secondaryColor;
+          display: block;
+          width: 100%;
+          padding: 1rem;
+          padding-top: 0;
+          border-bottom: solid 1px $softColor;
+        }
+        .description {
+          padding: 1rem;
+          font-weight: 500;
+        }
+        .informations {
+          padding: 1rem;
+          padding-top: 0;
+          font-weight: 300;
+        }
+        .buttons {
+          margin-top: auto;
+          padding-inline: 1rem;
+          button {
+            border-radius: 0;
+            border: solid 1px $foregroundColor;
+            margin-bottom: 1rem;
+            margin-top: 0;
+            padding: 1rem;
+            padding-inline: 4rem;
+
+            &:hover {
+              cursor: pointer;
+              background-color: $softColor;
+            }
+
+            &.buyNow {
+              background-color: $foregroundColor;
+              color: $backgroundColor;
+              margin-left: 1rem;
+              &:hover {
+                background-color: $secondaryColor;
+              }
+            }
+          }
+        }
+      }
+      @media (max-width: 1200px) {
+        flex-direction: column;
+        .imageContainer {
+          width: 100%;
+        }
+        .buttons {
+          display: flex;
+          padding-top: 0.75rem;
+          button {
+            flex: 1;
+          }
+        }
+      }
+      @media (max-width: 600px) {
+        flex-direction: column;
+        .imageContainer {
+          width: 100%;
+        }
+        .buttons {
+          flex-direction: column;
+          .buyNow {
+            margin-left: 0 !important;
+          }
+        }
+      }
+    }
+  }
+}
