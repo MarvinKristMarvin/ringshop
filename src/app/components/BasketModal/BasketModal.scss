@@ -1,6 +1,6 @@
 @use "src/app/_variables.scss" as *;
 
-.FilterModal {
+.BasketModal {
   font-family: "Jost", sans-serif;
   letter-spacing: 1px;
   display: flex;
@@ -57,34 +57,80 @@
       }
     }
 
-    .filters {
+    .basket_articles {
       height: calc(100vh - 165px);
       overflow-y: auto;
-      padding-bottom: 1rem;
-      h3 {
-        font-weight: 400;
-        letter-spacing: 2px;
+      padding-bottom: 4.5rem;
+
+      .article {
         padding: 1.25rem;
-        padding-bottom: 0.5rem;
-      }
-      ul {
-        padding-left: 1.25rem;
-        list-style-type: none;
-        font-weight: 300;
-        li {
-          margin-bottom: 0.25rem;
-          label {
+        padding-bottom: 0;
+        .imageContainer {
+          position: relative;
+          width: 100%;
+          img {
+            display: block;
+            width: 100%;
+          }
+          .deleteButton {
+            padding: 1.25rem;
+            position: absolute;
+            background-color: transparent;
+            border: none;
+            top: 0;
+            right: 0;
             &:hover {
               cursor: pointer;
+              background-color: rgba(255, 255, 255, 0.075);
             }
-            input {
-              margin-right: 0.5rem;
-              &:hover {
-                cursor: pointer;
-              }
+            img {
+              -webkit-filter: invert(100%); /* Safari/Chrome */
+              filter: invert(100%);
+              height: 1rem;
             }
           }
         }
+        .informationsContainer {
+          border: solid 1px $secondaryColor;
+          border-top: none;
+          text-align: center;
+          padding-block: 0.5rem;
+          h3 {
+            font-weight: 500;
+            letter-spacing: 2px;
+            padding: 1.25rem;
+            padding-top: 0.5rem;
+            padding-bottom: 0rem;
+          }
+          span {
+            display: block;
+            padding-inline: 1.25rem;
+            font-weight: 500;
+            padding-bottom: 0.5rem;
+          }
+        }
+      }
+    }
+
+    .totalDiv {
+      position: absolute;
+      z-index: 10000;
+      top: calc(100vh - 9rem);
+      background-color: $backgroundColor;
+      border-top: solid 1px $softColor;
+      width: 270px;
+      padding-block: 0.75rem;
+      padding-inline: 1.25rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 400;
+      font-size: 1.25rem;
+      letter-spacing: 2px;
+
+      .total {
+      }
+      .totalPrice {
       }
     }
 

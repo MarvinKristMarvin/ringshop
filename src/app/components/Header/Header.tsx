@@ -46,6 +46,14 @@ export default function Header() {
               Bracelets
             </Link>
           </li>
+          <li>
+            <Link
+              href="/basket"
+              className={pathname === "/basket" ? "active" : ""}
+            >
+              Panier
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>

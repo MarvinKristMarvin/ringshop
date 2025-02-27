@@ -1,15 +1,13 @@
 import React from "react";
 import Article from "@/app/components/Article/Article";
 import FilterModal from "@/app/components/FilterModal/FilterModal";
+import FixedButtons from "@/app/components/FixedButtons/FixedButtons";
+import BasketModal from "@/app/components/BasketModal/BasketModal";
 
 export default function BandsPage() {
   return (
     <main className="BandsPage">
-      {/* <h2>ANNEAUX</h2> */}
-      <section className="buttons">
-        <button>FILTRER</button>
-        <button>PANIER</button>
-      </section>
+      <FixedButtons />
       <section className="articles">
         <Article />
         <Article />
@@ -17,7 +15,8 @@ export default function BandsPage() {
         <Article />
         <Article />
       </section>
-      <FilterModal />
+      {/* <FilterModal /> */}
+      <BasketModal />
     </main>
   );
 }

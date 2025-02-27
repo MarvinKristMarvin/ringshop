@@ -31,30 +31,7 @@ body {
         margin-top: 1rem;
       }
     }
-    .buttons {
-      display: flex;
-      justify-content: flex-end;
-      border-bottom: solid 1px $softColor;
 
-      button {
-        padding: 1.25rem;
-        padding-inline: 4rem;
-        border: none;
-        border-left: solid 1px $softColor;
-        background-color: $backgroundColor;
-        border-radius: 0;
-        box-shadow: none;
-        letter-spacing: 2px;
-
-        &:hover {
-          cursor: pointer;
-          background-color: $ultraSoftColor;
-        }
-        @media (max-width: 600px) {
-          flex: 1;
-        }
-      }
-    }
     .articles {
       display: grid;
       grid-template-columns: repeat(3, 1fr);

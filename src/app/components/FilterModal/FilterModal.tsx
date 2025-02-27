@@ -5,93 +5,213 @@ export default function FilterModal() {
     <div className="FilterModal">
       <div className="transparence"></div>
       <div className="menu">
-        <h2>Filtres</h2>
+        <header>
+          <h2>Filtres</h2>
+          <button>
+            <img src="icons/close.png" alt="" />
+          </button>
+        </header>
+        <section className="filters">
+          <h3>Pierre</h3>
+          <ul>
+            <li>
+              <label>
+                <input type="checkbox" name="pierre" value="Diamant" />
+                Diamant
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="pierre" value="Rubis" />
+                Rubis
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="pierre" value="Emeraude" />
+                Emeraude
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="pierre" value="Tourmaline" />
+                Tourmaline
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="pierre" value="Corail" />
+                Corail
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="pierre" value="Turquoise" />
+                Turquoise
+              </label>
+            </li>
+          </ul>
 
-        <h3>Pierre</h3>
-        <ul>
-          <li>
-            <label>
-              <input type="checkbox" name="pierre" value="Diamant" />
-              Diamant
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="checkbox" name="pierre" value="Rubis" />
-              Rubis
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="checkbox" name="pierre" value="Emeraude" />
-              Emeraude
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="checkbox" name="pierre" value="Tourmaline" />
-              Tourmaline
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="checkbox" name="pierre" value="Corail" />
-              Corail
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="checkbox" name="pierre" value="Turquoise" />
-              Turquoise
-            </label>
-          </li>
-        </ul>
-
-        <h3>Couleur</h3>
-        <ul>
-          <li>
-            <label>
-              <input type="checkbox" name="couleur" value="Rouge" />
-              Rouge
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="checkbox" name="couleur" value="Vert" />
-              Vert
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="checkbox" name="couleur" value="Bleu" />
-              Bleu
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="checkbox" name="couleur" value="Rose" />
-              Rose
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="checkbox" name="couleur" value="Jaune" />
-              Jaune
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="checkbox" name="couleur" value="Blanc" />
-              Blanc
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="checkbox" name="couleur" value="Aucune" />
-              Aucune
-            </label>
-          </li>
-        </ul>
+          <h3>Couleur</h3>
+          <ul>
+            <li>
+              <label>
+                <input type="checkbox" name="couleur" value="Rouge" />
+                Rouge
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="couleur" value="Vert" />
+                Vert
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="couleur" value="Bleu" />
+                Bleu
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="couleur" value="Bleu" />
+                Bleu
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="couleur" value="Bleu" />
+                Bleu
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="couleur" value="Bleu" />
+                Bleu
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="couleur" value="Bleu" />
+                Bleu
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="couleur" value="Bleu" />
+                Bleu
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="couleur" value="Bleu" />
+                Bleu
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="couleur" value="Bleu" />
+                Bleu
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="couleur" value="Bleu" />
+                Bleu
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="couleur" value="Bleu" />
+                Bleu
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="couleur" value="Bleu" />
+                Bleu
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="couleur" value="Bleu" />
+                Bleu
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="couleur" value="Bleu" />
+                Bleu
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="couleur" value="Bleu" />
+                Bleu
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="couleur" value="Bleu" />
+                Bleu
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="couleur" value="Bleu" />
+                Bleu
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="couleur" value="Bleu" />
+                Bleu
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="couleur" value="Bleu" />
+                Bleu
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="couleur" value="Bleu" />
+                Bleu
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="couleur" value="Bleu" />
+                Bleu
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="couleur" value="Rose" />
+                Rose
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="couleur" value="Jaune" />
+                Jaune
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="couleur" value="Blanc" />
+                Blanc
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="couleur" value="Aucune" />
+                Aucune
+              </label>
+            </li>
+          </ul>
+        </section>
 
         <div className="buttonDiv">
           <button>Appliquer</button>
