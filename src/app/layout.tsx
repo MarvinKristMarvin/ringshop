@@ -3,6 +3,7 @@ import "./globals.scss";
 import "./layout.scss";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import BasketModal from "./components/BasketModal/BasketModal";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,6 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <BasketModal />
         <Header />
         {children}
         <Footer />

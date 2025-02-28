@@ -4,9 +4,11 @@ import React from "react";
 import "./Header.scss";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useStore } from "@/store/useStore";
 
 export default function Header() {
   const pathname = usePathname();
+  const { setIsBasketOpen } = useStore();
   return (
     <header className="Header">
       <Link href="/">
@@ -47,12 +49,12 @@ export default function Header() {
             </Link>
           </li>
           <li>
-            <Link
-              href="/basket"
-              className={pathname === "/basket" ? "active" : ""}
+            <button
+              className="basketButton"
+              onClick={() => setIsBasketOpen(true)}
             >
-              Panier
-            </Link>
+              Panier <span className="redSpan">(2 produits)</span>
+            </button>
           </li>
         </ul>
       </nav>

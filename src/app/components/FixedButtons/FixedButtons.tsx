@@ -1,11 +1,17 @@
+"use client";
+
 import React from "react";
 import "./FixedButtons.scss";
 
-export default function FixedButtons() {
+interface FixedButtonsProps {
+  setIsFilterOpen: (isOpen: boolean) => void;
+}
+
+export default function FixedButtons({ setIsFilterOpen }: FixedButtonsProps) {
   return (
     <section className="FixedButtons">
       <div className="buttons">
-        <button>FILTRER</button>
+        <button onClick={() => setIsFilterOpen(true)}>FILTRER</button>
       </div>
     </section>
   );

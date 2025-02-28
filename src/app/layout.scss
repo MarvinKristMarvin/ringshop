@@ -5,6 +5,23 @@ body {
   display: flex;
   flex-direction: column;
 
+  .UnavailablePage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Jost", sans-serif;
+    letter-spacing: 2px;
+    background-color: black;
+    h2 {
+      font-size: 1rem;
+      font-weight: 400;
+      color: $backgroundColor;
+      text-align: center;
+      margin-inline: 2rem;
+    }
+  }
+
   /* Home */
   .categories {
     background-color: $foregroundColor;
@@ -103,6 +120,10 @@ body {
             margin-top: 0;
             padding: 1rem;
             padding-inline: 4rem;
+            font-family: "Jost", sans-serif;
+            font-weight: 400;
+            letter-spacing: 1px;
+            font-size: 1rem;
 
             &:hover {
               cursor: pointer;

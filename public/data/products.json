@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Alliance Sitia PM or jaune",
+    "description": "Or jaune 750/1000, de 2,2mm à 2,6mm de large.",
+    "price": 550,
+    "category": "bands",
+    "gemstones": [],
+    "colors": [],
+    "image": "alliances-sitia-or-jaune"
+  },
+  {
+    "id": 2,
+    "name": "Bague Mon Chéri martelé pierre diamant",
+    "description": "Or jaune 750/1000, diamant blanc 0.018cts.",
+    "price": 660,
+    "category": "bands",
+    "gemstones": ["diamant"],
+    "colors": ["blanc"],
+    "image": "bague-mon-cheri-martele-pierre-diamant"
+  },
+  {
+    "id": 3,
+    "name": "Alliance Diane or jaune PM",
+    "description": "Or jaune 750/1000, largeur 1.7mm.",
+    "price": 860,
+    "category": "bands",
+    "gemstones": [],
+    "colors": [],
+    "image": "alliances-Diane-PM-or-jaune-Emmanuelle-Zysman"
+  },
+  {
+    "id": 4,
+    "name": "Bague Mon Chéri or jaune martelé pierre",
+    "description": "Or jaune 750/1000, largeur 1.6mm.",
+    "price": 510,
+    "category": "bands",
+    "gemstones": [],
+    "colors": [],
+    "image": "bague-mon-cheri-or-jaune-martele-pierre"
+  },
+  {
+    "id": 5,
+    "name": "Bague Mon Chéri martelé pierre rubis",
+    "description": "Or jaune 750/1000, rubis 0.018cts.",
+    "price": 610,
+    "category": "bands",
+    "gemstones": ["rubis"],
+    "colors": ["rouge"],
+    "image": "bague-mon-cheri-martelee-pierre-rubis"
+  },
+  {
+    "id": 6,
+    "name": "Alliance Honey Allstars or jaune",
+    "description": "Or jaune 750/1000, largeur 2.4mm, épaisseur 1.6mm, diamants 2mm x7 (0.25cts).",
+    "price": 2200,
+    "category": "bands",
+    "gemstones": ["diamant"],
+    "colors": ["blanc"],
+    "image": "alliance-honey-allstars-or-jaune"
+  },
+  {
+    "id": 7,
+    "name": "Alliance Diane or jaune GM",
+    "description": "Or jaune 750/1000, largeur 3mm.",
+    "price": 1340,
+    "category": "bands",
+    "gemstones": [],
+    "colors": [],
+    "image": "alliance-diane-or-jaune-gm"
+  },
+  {
+    "id": 8,
+    "name": "Bague Sitia GM Or jaune",
+    "description": "Or jaune 750/1000, largeur 3.4mm à 3.8mm.",
+    "price": 930,
+    "category": "bands",
+    "gemstones": [],
+    "colors": [],
+    "image": "bague-sitia-gm-or-jaune"
+  },
+  {
+    "id": 9,
+    "name": "Bagues Ida or jaune",
+    "description": "Or jaune 750/1000, largeur 4.5mm",
+    "price": 1430,
+    "category": "bands",
+    "gemstones": [],
+    "colors": [],
+    "image": "bagues-ida-or-jaune"
+  }
+]

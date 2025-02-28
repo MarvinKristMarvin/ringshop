@@ -1,13 +1,21 @@
 import React from "react";
 import "./FilterModal.scss";
-export default function FilterModal() {
+
+interface FilterModalProps {
+  setIsFilterOpen: (isOpen: boolean) => void;
+}
+
+export default function FilterModal({ setIsFilterOpen }: FilterModalProps) {
   return (
     <div className="FilterModal">
-      <div className="transparence"></div>
+      <div
+        className="transparence"
+        onClick={() => setIsFilterOpen(false)}
+      ></div>
       <div className="menu">
         <header>
           <h2>Filtres</h2>
-          <button>
+          <button onClick={() => setIsFilterOpen(false)}>
             <img src="icons/close.png" alt="" />
           </button>
         </header>

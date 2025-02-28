@@ -1,15 +1,27 @@
+"use client";
+
 import React from "react";
 import "./BasketModal.scss";
+import { useStore } from "@/store/useStore";
+import Link from "next/link";
 
 export default function BasketModal() {
+  const { isBasketOpen, setIsBasketOpen } = useStore();
+  if (!isBasketOpen) return null;
   return (
     <div className="BasketModal">
-      <div className="transparence"></div>
+      <div
+        className="transparence"
+        onClick={() => setIsBasketOpen(false)}
+      ></div>
       <div className="menu">
         <header>
           <h2>Panier</h2>
-          <button>
-            <img src="icons/close.png" alt="" />
+          <button
+            className="closeBasketButton"
+            onClick={() => setIsBasketOpen(false)}
+          >
+            <img src="/icons/close.png" alt="" />
           </button>
         </header>
         <section className="basket_articles">
@@ -83,7 +95,9 @@ export default function BasketModal() {
           <span className="totalPrice">800 &euro;</span>
         </div>
         <div className="buttonDiv">
-          <button>Payer</button>
+          <Link href="/unavailable">
+            <button onClick={() => setIsBasketOpen(false)}>Payer</button>
+          </Link>
         </div>
       </div>
     </div>

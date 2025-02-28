@@ -2,20 +2,23 @@ import React from "react";
 import Link from "next/link";
 import "./Article.scss";
 
-export default function Article() {
+import { Product } from "@/types";
+
+interface ArticleProps {
+  product: Product;
+}
+
+export default function Article({ product }: ArticleProps) {
   return (
     <article className="Article">
       <Link href={"/bands/1"}>
         <div className="imageContainer">
-          <img
-            src="/bague-zelda-or-jaune-14k-rubis-Emmanuelle-Zysman.webp"
-            alt=""
-          />
+          <img src={"/bands/" + product.image + ".webp"} alt="" />
         </div>
         <div className="informationsContainer">
-          <h3>Bague Zelda</h3>
-          <p>Gold and Ruby</p>
-          <span>800&euro;</span>
+          <h3>{product.name}</h3>
+          <p>{product.description}</p>
+          <span>{product.price} &euro;</span>
         </div>
       </Link>
     </article>

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.scss";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -8,13 +9,13 @@ export default function Footer() {
       <nav>
         <ul>
           <li>
-            <a href="">Contactez nous</a>
+            <Link href="/unavailable">Contactez nous</Link>
           </li>
           <li>
-            <a href="">Conditions d&apos;utilisation</a>
+            <Link href="/unavailable">Conditions d&apos;utilisation</Link>
           </li>
           <li>
-            <a href="">Mentions légales</a>
+            <Link href="/unavailable">Mentions légales</Link>
           </li>
         </ul>
       </nav>

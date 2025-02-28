@@ -40,6 +40,29 @@
           text-decoration: underline;
           text-underline-offset: 3px;
         }
+        .basketButton {
+          padding: 0;
+          background-color: transparent;
+          color: $backgroundColor;
+          font-family: "Jost", sans-serif;
+          text-transform: uppercase;
+          font-size: 0.75rem;
+          letter-spacing: 2px;
+          height: 14px;
+          border: none;
+          border-radius: 0;
+          font-weight: 400;
+          cursor: pointer; // 👈 Matches <a> interaction
+          text-decoration: none; // 👈 Ensure no default underline
+          display: inline; // 👈 Make it behave like an inline text element
+          .redSpan {
+            color: rgb(0, 255, 149);
+            font-size: 0.75rem;
+          }
+          @media (max-width: 600px) {
+            letter-spacing: 1px;
+          }
+        }
       }
     }
   }
