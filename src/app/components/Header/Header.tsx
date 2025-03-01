@@ -8,7 +8,7 @@ import { useStore } from "@/store/useStore";
 
 export default function Header() {
   const pathname = usePathname();
-  const { setIsBasketOpen } = useStore();
+  const { setIsBasketOpen, productsInBasket } = useStore();
   return (
     <header className="Header">
       <Link href="/">
@@ -53,7 +53,11 @@ export default function Header() {
               className="basketButton"
               onClick={() => setIsBasketOpen(true)}
             >
-              Panier <span className="redSpan">(2 produits)</span>
+              Panier{" "}
+              <span className="redSpan">
+                {productsInBasket.length > 0 &&
+                  `(${productsInBasket.length} articles)`}
+              </span>
             </button>
           </li>
         </ul>

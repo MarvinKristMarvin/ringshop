@@ -4,9 +4,37 @@ import React from "react";
 import "./BasketModal.scss";
 import { useStore } from "@/store/useStore";
 import Link from "next/link";
+import { useState } from "react";
 
 export default function BasketModal() {
-  const { isBasketOpen, setIsBasketOpen } = useStore();
+  const {
+    isBasketOpen,
+    setIsBasketOpen,
+    productsInBasket,
+    setProductsInBasket,
+  } = useStore();
+
+  /* const handleRemoveItem = (indexToRemove: number) => {
+    const updatedBasket = [...productsInBasket];
+    updatedBasket.splice(indexToRemove, 1);
+    setProductsInBasket(updatedBasket);
+  };*/
+
+  const [removingIndex, setRemovingIndex] = useState<number | null>();
+
+  const handleRemoveItem = (indexToRemove: number) => {
+    // First set the removing state to trigger the animation
+    setRemovingIndex(indexToRemove);
+
+    // Then remove the item after the animation duration
+    setTimeout(() => {
+      const updatedBasket = [...productsInBasket];
+      updatedBasket.splice(indexToRemove, 1);
+      setProductsInBasket(updatedBasket);
+      setRemovingIndex(null);
+    }, 300); // Duration should match your CSS transition time
+  };
+
   if (!isBasketOpen) return null;
   return (
     <div className="BasketModal">
@@ -25,70 +53,29 @@ export default function BasketModal() {
           </button>
         </header>
         <section className="basket_articles">
-          <div className="article">
-            <div className="imageContainer">
-              <img
-                src="/bague-zelda-or-jaune-14k-rubis-Emmanuelle-Zysman.webp"
-                alt=""
-              />
-              <button className="deleteButton">
-                <img src="/icons/close.png" alt="" />
-              </button>
+          {productsInBasket.map((product, index) => (
+            <div
+              className={`article ${removingIndex === index ? "removing" : ""}`}
+              key={`${product.id}-${index}`}
+            >
+              <div className="imageContainer">
+                <img
+                  src={`/${product.category}/${product.image}.webp`}
+                  alt=""
+                />
+                <button
+                  className="deleteButton"
+                  onClick={() => handleRemoveItem(index)}
+                >
+                  <img src="/icons/close.png" alt="" />
+                </button>
+              </div>
+              <div className="informationsContainer">
+                <h3>{product.name}</h3>
+                <span>{product.price} &euro;</span>
+              </div>
             </div>
-            <div className="informationsContainer">
-              <h3>Bague Zelda</h3>
-
-              <span>800&euro;</span>
-            </div>
-          </div>
-          <div className="article">
-            <div className="imageContainer">
-              <img
-                src="/bague-zelda-or-jaune-14k-rubis-Emmanuelle-Zysman.webp"
-                alt=""
-              />
-              <button className="deleteButton">
-                <img src="/icons/close.png" alt="" />
-              </button>
-            </div>
-            <div className="informationsContainer">
-              <h3>Bague Zelda</h3>
-
-              <span>800&euro;</span>
-            </div>
-          </div>
-          <div className="article">
-            <div className="imageContainer">
-              <img
-                src="/bague-zelda-or-jaune-14k-rubis-Emmanuelle-Zysman.webp"
-                alt=""
-              />
-              <button className="deleteButton">
-                <img src="/icons/close.png" alt="" />
-              </button>
-            </div>
-            <div className="informationsContainer">
-              <h3>Bague Zelda</h3>
-
-              <span>800&euro;</span>
-            </div>
-          </div>
-          <div className="article">
-            <div className="imageContainer">
-              <img
-                src="/bague-zelda-or-jaune-14k-rubis-Emmanuelle-Zysman.webp"
-                alt=""
-              />
-              <button className="deleteButton">
-                <img src="/icons/close.png" alt="" />
-              </button>
-            </div>
-            <div className="informationsContainer">
-              <h3>Bague Zelda</h3>
-
-              <span>800&euro;</span>
-            </div>
-          </div>
+          ))}
         </section>
         <div className="totalDiv">
           <span className="total">Total :</span>

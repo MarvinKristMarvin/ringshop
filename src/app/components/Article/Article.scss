@@ -8,15 +8,23 @@
     border: solid 1px $secondaryColor;
     height: 200px;
 
+    &:hover .imageContainer img {
+      transform: scale(1.1);
+    }
+
     .imageContainer {
       height: 100%;
       width: 200px;
+      overflow: hidden;
 
       img {
         width: 100%;
         height: 100%;
         object-fit: cover;
         display: block;
+        &:hover {
+          transform: scale(1.1);
+        }
       }
 
       /* apply style also to informationsContainer */
@@ -33,6 +41,7 @@
       &:hover {
         border: solid 1px $secondaryColor;
       }
+
       h3 {
         margin-inline: 1rem;
         text-align: center;

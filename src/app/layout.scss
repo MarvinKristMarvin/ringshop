@@ -72,8 +72,15 @@ body {
     .product {
       width: 100%;
       display: flex;
+      justify-content: center;
+      padding: 2rem;
+
+      background-color: $backgroundColor;
+      @media (max-width: 1200px) {
+        padding: 0rem;
+      }
       .imageContainer {
-        width: 50%;
+        width: 100%;
         img {
           width: 100%;
           display: block;
@@ -84,11 +91,16 @@ body {
         display: flex;
         flex-direction: column;
         letter-spacing: 1px;
-        h2 {
+        padding-left: 2rem;
+        @media (max-width: 1200px) {
           padding: 1rem;
+        }
+
+        h2 {
+          padding-top: 0;
           padding-bottom: 0.25rem;
           letter-spacing: 2px;
-          font-weight: 600;
+          font-weight: 500;
         }
         span {
           letter-spacing: 2px;
@@ -96,30 +108,30 @@ body {
           font-size: 1.25rem;
           color: $secondaryColor;
           display: block;
+          padding-bottom: 0.75rem;
           width: 100%;
-          padding: 1rem;
           padding-top: 0;
           border-bottom: solid 1px $softColor;
         }
         .description {
-          padding: 1rem;
           font-weight: 500;
+          padding-block: 1rem;
         }
         .informations {
-          padding: 1rem;
+          padding-bottom: 1rem;
           padding-top: 0;
           font-weight: 300;
         }
         .buttons {
           margin-top: auto;
-          padding-inline: 1rem;
+          width: 100%;
+          display: flex;
           button {
+            flex: 1;
             border-radius: 0;
             border: solid 1px $foregroundColor;
-            margin-bottom: 1rem;
             margin-top: 0;
             padding: 1rem;
-            padding-inline: 4rem;
             font-family: "Jost", sans-serif;
             font-weight: 400;
             letter-spacing: 1px;
@@ -133,7 +145,10 @@ body {
             &.buyNow {
               background-color: $foregroundColor;
               color: $backgroundColor;
-              margin-left: 1rem;
+              margin-left: 2rem;
+              @media (max-width: 1200px) {
+                margin-left: 1rem;
+              }
               &:hover {
                 background-color: $secondaryColor;
               }
@@ -149,6 +164,7 @@ body {
         .buttons {
           display: flex;
           padding-top: 0.75rem;
+
           button {
             flex: 1;
           }
@@ -162,7 +178,8 @@ body {
         .buttons {
           flex-direction: column;
           .buyNow {
-            margin-left: 0 !important;
+            margin-top: 1rem !important;
+            margin-left: 0rem !important;
           }
         }
       }

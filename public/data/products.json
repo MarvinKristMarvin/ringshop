@@ -82,11 +82,121 @@
   {
     "id": 9,
     "name": "Bagues Ida or jaune",
-    "description": "Or jaune 750/1000, largeur 4.5mm",
+    "description": "Or jaune 750/1000, largeur 4.5mm.",
     "price": 1430,
     "category": "bands",
     "gemstones": [],
     "colors": [],
     "image": "bagues-ida-or-jaune"
+  },
+  {
+    "id": 10,
+    "name": "Anneau Devise Ad Astra or jaune et diamants",
+    "description": "Or jaune 750/1000, diamants 0.012cts, largeur 3.1mm.",
+    "price": 1060,
+    "category": "bands",
+    "gemstones": [],
+    "colors": [],
+    "image": "anneau-devise-ad-astra-or-jaune-et-diamants"
+  },
+  {
+    "id": 11,
+    "name": "Bague Baby Diane tourmaline bleue ovale 1,43cts",
+    "description": "Or jaune 750/1000, tourmaline bleue 1.43cts.",
+    "price": 2300,
+    "category": "rings",
+    "gemstones": ["tourmaline"],
+    "colors": ["bleu"],
+    "image": "bague-baby-diane-tourmaline-verte-ovale-143cts_1"
+  },
+  {
+    "id": 12,
+    "name": "Bague Queen diamants bleus or jaune tourmaline verte 18,09 cts",
+    "description": "Or jaune 750/1000, tourmaline verte 18.09cts, diamants bleus 0.110cts.",
+    "price": 6180,
+    "category": "rings",
+    "gemstones": ["diamant", "tourmaline"],
+    "colors": ["verte", "bleu"],
+    "image": "bague-queen-diamants-bleus-or-jaune-tourmaline-verte"
+  },
+  {
+    "id": 13,
+    "name": "Bague Zelda or jaune tourmaline bleue ovale 0,49 cts",
+    "description": "Or jaune 750/1000, tourmaline bleue 0.49cts.",
+    "price": 860,
+    "category": "rings",
+    "gemstones": ["tourmaline"],
+    "colors": ["bleu"],
+    "image": "bague-zelda-or-jaune-tourmaline-bleue-ovale-049-cts"
+  },
+  {
+    "id": 14,
+    "name": "Bague Queen rubis or jaune tourmaline rose 6,05cts",
+    "description": "Or jaune 750/1000, tourmaline rose 6.05cts, rubis.",
+    "price": 3350,
+    "category": "rings",
+    "gemstones": ["rubis", "tourmaline"],
+    "colors": ["rose", "rouge"],
+    "image": "Bague-queen-rubis-or-jaune-tourmaline-rose-6_05cts-Emmanuelle-Zysman"
+  },
+  {
+    "id": 15,
+    "name": "Bague Zelda or jaune rubis coussin 0,33cts",
+    "description": "Or jaune 585/1000, rubis coussin 0.33cts.",
+    "price": 1690,
+    "category": "rings",
+    "gemstones": ["rubis"],
+    "colors": ["rouge"],
+    "image": "bague-zelda-or-jaune-14k-rubis-Emmanuelle-Zysman"
+  },
+  {
+    "id": 16,
+    "name": "Bague Queen rubis or jaune tourmaline vert d’eau 4,95 cts",
+    "description": "Or jaune 750/1000, tourmaline verte d'eau 4.95cts, rubis.",
+    "price": 3070,
+    "category": "rings",
+    "gemstones": ["tourmaline", "rubis"],
+    "colors": ["vert", "rouge", "bleu"],
+    "image": "bague-queen-rubis-or-jaune-tourmaline-verte-deau-495-cts"
+  },
+  {
+    "id": 17,
+    "name": "Bague Sagan 12 or jaune",
+    "description": "Or jaune 750/1000, tourmaline bleue 0.37cts, émeraudes 19/10, diamants bleus 13/10, spinelles 12/10.",
+    "price": 1730,
+    "category": "rings",
+    "gemstones": ["diamant", "tourmaline", "emeraude", "spinelle"],
+    "colors": ["bleu", "rouge", "vert"],
+    "image": "bague-sagan-12-or-jaune-tourmaline-emeraudes-spinelles-rouges-diamants-bleus-Emmanuelle-Zysman"
+  },
+  {
+    "id": 18,
+    "name": "Bague Queen Rubis or jaune tourmaline vert d’eau ovale 2,10 cts",
+    "description": "Or jaune 750/1000, tourmaline vert d'eau 2.10cts, rubis.",
+    "price": 1960,
+    "category": "rings",
+    "gemstones": ["tourmaline", "rubis"],
+    "colors": ["vert", "rouge", "bleu"],
+    "image": "bague-queen-rubis-or-jaune-tourmaline-vert-deau-ovale-210-cts"
+  },
+  {
+    "id": 19,
+    "name": "Bague Queen diamant blanc or jaune tourmaline rose 4,9cts",
+    "description": "Or jaune 750/1000, tourmaline rose 4.9cts, diamants blancs.",
+    "price": 2930,
+    "category": "rings",
+    "gemstones": ["diamant", "tourmaline"],
+    "colors": ["rose", "blanc"],
+    "image": "bague-queen-diamant-blanc-tourmaline-rose-4_9cts_2ae5f93a-6757-40bc-b52c-9cbdc50b612e"
+  },
+  {
+    "id": 20,
+    "name": "Bague Queen rubis or jaune tourmaline rose 1,94 cts",
+    "description": "Or jaune 750/1000, tourmaline rose 1.94cts, rubis.",
+    "price": 2080,
+    "category": "rings",
+    "gemstones": ["tourmaline", "rubis"],
+    "colors": ["rose", "rouge"],
+    "image": "bague-queen-rubis-or-jaune-tourmaline-rose-194-cts"
   }
 ]

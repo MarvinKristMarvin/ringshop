@@ -11,9 +11,9 @@ interface ArticleProps {
 export default function Article({ product }: ArticleProps) {
   return (
     <article className="Article">
-      <Link href={"/bands/1"}>
+      <Link href={`/${product.category}/${product.id}`}>
         <div className="imageContainer">
-          <img src={"/bands/" + product.image + ".webp"} alt="" />
+          <img src={`/${product.category}/${product.image}.webp`} alt="" />
         </div>
         <div className="informationsContainer">
           <h3>{product.name}</h3>
