@@ -5,7 +5,7 @@ import FixedButtons from "./components/FixedButtons/FixedButtons";
 
 export default function Home() {
   return (
-    <main>
+    <main className="HomePage">
       <HomeImage />
       <section className="categories">
         <CategoryImage

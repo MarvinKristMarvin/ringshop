@@ -7,7 +7,8 @@
     "category": "bands",
     "gemstones": [],
     "colors": [],
-    "image": "alliances-sitia-or-jaune"
+    "image": "alliances-sitia-or-jaune",
+    "format": "webp"
   },
   {
     "id": 2,
@@ -17,7 +18,8 @@
     "category": "bands",
     "gemstones": ["diamant"],
     "colors": ["blanc"],
-    "image": "bague-mon-cheri-martele-pierre-diamant"
+    "image": "bague-mon-cheri-martele-pierre-diamant",
+    "format": "webp"
   },
   {
     "id": 3,
@@ -27,7 +29,8 @@
     "category": "bands",
     "gemstones": [],
     "colors": [],
-    "image": "alliances-Diane-PM-or-jaune-Emmanuelle-Zysman"
+    "image": "alliances-Diane-PM-or-jaune-Emmanuelle-Zysman",
+    "format": "webp"
   },
   {
     "id": 4,
@@ -37,7 +40,8 @@
     "category": "bands",
     "gemstones": [],
     "colors": [],
-    "image": "bague-mon-cheri-or-jaune-martele-pierre"
+    "image": "bague-mon-cheri-or-jaune-martele-pierre",
+    "format": "webp"
   },
   {
     "id": 5,
@@ -47,7 +51,8 @@
     "category": "bands",
     "gemstones": ["rubis"],
     "colors": ["rouge"],
-    "image": "bague-mon-cheri-martelee-pierre-rubis"
+    "image": "bague-mon-cheri-martelee-pierre-rubis",
+    "format": "webp"
   },
   {
     "id": 6,
@@ -57,7 +62,8 @@
     "category": "bands",
     "gemstones": ["diamant"],
     "colors": ["blanc"],
-    "image": "alliance-honey-allstars-or-jaune"
+    "image": "alliance-honey-allstars-or-jaune",
+    "format": "webp"
   },
   {
     "id": 7,
@@ -67,7 +73,8 @@
     "category": "bands",
     "gemstones": [],
     "colors": [],
-    "image": "alliance-diane-or-jaune-gm"
+    "image": "alliance-diane-or-jaune-gm",
+    "format": "webp"
   },
   {
     "id": 8,
@@ -77,7 +84,8 @@
     "category": "bands",
     "gemstones": [],
     "colors": [],
-    "image": "bague-sitia-gm-or-jaune"
+    "image": "bague-sitia-gm-or-jaune",
+    "format": "webp"
   },
   {
     "id": 9,
@@ -87,7 +95,8 @@
     "category": "bands",
     "gemstones": [],
     "colors": [],
-    "image": "bagues-ida-or-jaune"
+    "image": "bagues-ida-or-jaune",
+    "format": "webp"
   },
   {
     "id": 10,
@@ -97,7 +106,8 @@
     "category": "bands",
     "gemstones": [],
     "colors": [],
-    "image": "anneau-devise-ad-astra-or-jaune-et-diamants"
+    "image": "anneau-devise-ad-astra-or-jaune-et-diamants",
+    "format": "webp"
   },
   {
     "id": 11,
@@ -107,7 +117,8 @@
     "category": "rings",
     "gemstones": ["tourmaline"],
     "colors": ["bleu"],
-    "image": "bague-baby-diane-tourmaline-verte-ovale-143cts_1"
+    "image": "bague-baby-diane-tourmaline-verte-ovale-143cts_1",
+    "format": "webp"
   },
   {
     "id": 12,
@@ -117,7 +128,8 @@
     "category": "rings",
     "gemstones": ["diamant", "tourmaline"],
     "colors": ["verte", "bleu"],
-    "image": "bague-queen-diamants-bleus-or-jaune-tourmaline-verte"
+    "image": "bague-queen-diamants-bleus-or-jaune-tourmaline-verte",
+    "format": "webp"
   },
   {
     "id": 13,
@@ -127,7 +139,8 @@
     "category": "rings",
     "gemstones": ["tourmaline"],
     "colors": ["bleu"],
-    "image": "bague-zelda-or-jaune-tourmaline-bleue-ovale-049-cts"
+    "image": "bague-zelda-or-jaune-tourmaline-bleue-ovale-049-cts",
+    "format": "webp"
   },
   {
     "id": 14,
@@ -137,7 +150,8 @@
     "category": "rings",
     "gemstones": ["rubis", "tourmaline"],
     "colors": ["rose", "rouge"],
-    "image": "Bague-queen-rubis-or-jaune-tourmaline-rose-6_05cts-Emmanuelle-Zysman"
+    "image": "Bague-queen-rubis-or-jaune-tourmaline-rose-6_05cts-Emmanuelle-Zysman",
+    "format": "webp"
   },
   {
     "id": 15,
@@ -147,7 +161,8 @@
     "category": "rings",
     "gemstones": ["rubis"],
     "colors": ["rouge"],
-    "image": "bague-zelda-or-jaune-14k-rubis-Emmanuelle-Zysman"
+    "image": "bague-zelda-or-jaune-14k-rubis-Emmanuelle-Zysman",
+    "format": "webp"
   },
   {
     "id": 16,
@@ -157,7 +172,8 @@
     "category": "rings",
     "gemstones": ["tourmaline", "rubis"],
     "colors": ["vert", "rouge", "bleu"],
-    "image": "bague-queen-rubis-or-jaune-tourmaline-verte-deau-495-cts"
+    "image": "bague-queen-rubis-or-jaune-tourmaline-verte-deau-495-cts",
+    "format": "webp"
   },
   {
     "id": 17,
@@ -167,7 +183,8 @@
     "category": "rings",
     "gemstones": ["diamant", "tourmaline", "emeraude", "spinelle"],
     "colors": ["bleu", "rouge", "vert"],
-    "image": "bague-sagan-12-or-jaune-tourmaline-emeraudes-spinelles-rouges-diamants-bleus-Emmanuelle-Zysman"
+    "image": "bague-sagan-12-or-jaune-tourmaline-emeraudes-spinelles-rouges-diamants-bleus-Emmanuelle-Zysman",
+    "format": "webp"
   },
   {
     "id": 18,
@@ -177,7 +194,8 @@
     "category": "rings",
     "gemstones": ["tourmaline", "rubis"],
     "colors": ["vert", "rouge", "bleu"],
-    "image": "bague-queen-rubis-or-jaune-tourmaline-vert-deau-ovale-210-cts"
+    "image": "bague-queen-rubis-or-jaune-tourmaline-vert-deau-ovale-210-cts",
+    "format": "webp"
   },
   {
     "id": 19,
@@ -187,7 +205,8 @@
     "category": "rings",
     "gemstones": ["diamant", "tourmaline"],
     "colors": ["rose", "blanc"],
-    "image": "bague-queen-diamant-blanc-tourmaline-rose-4_9cts_2ae5f93a-6757-40bc-b52c-9cbdc50b612e"
+    "image": "bague-queen-diamant-blanc-tourmaline-rose-4_9cts_2ae5f93a-6757-40bc-b52c-9cbdc50b612e",
+    "format": "webp"
   },
   {
     "id": 20,
@@ -197,6 +216,227 @@
     "category": "rings",
     "gemstones": ["tourmaline", "rubis"],
     "colors": ["rose", "rouge"],
-    "image": "bague-queen-rubis-or-jaune-tourmaline-rose-194-cts"
+    "image": "bague-queen-rubis-or-jaune-tourmaline-rose-194-cts",
+    "format": "webp"
+  },
+  {
+    "id": 21,
+    "name": "Collier Alex or jaune et rubis",
+    "description": "Or jaune 750/1000, rubis 0.120cts, chaîne 40cm.",
+    "price": 1220,
+    "category": "necklaces",
+    "gemstones": ["rubis"],
+    "colors": ["rouge"],
+    "image": "collier-alex-or-jaune-et-rubis_61284275-24f5-4021-817f-53ae6f376141",
+    "format": "jpg"
+  },
+  {
+    "id": 22,
+    "name": "Collier Baby Samarcande or jaune tourmaline verte taillée rubis 0,89cts",
+    "description": "Or jaune 750/1000, tourmaline verte taillée 0.89cts, rubis 13/10e, chaîne 40cm.",
+    "price": 1580,
+    "category": "necklaces",
+    "gemstones": ["tourmaline", "rubis"],
+    "colors": ["bleu", "rouge"],
+    "image": "collier-samarcande-rubis-coussin-tourmaline-0_89cts-emmanuelle-zysman",
+    "format": "jpg"
+  },
+  {
+    "id": 23,
+    "name": "Collier Baby Samarcande rubis or jaune tourmaline rose",
+    "description": "Or jaune 750/1000, tourmaline rose 0.42cts et 0.51cts, rubis, chaîne 40cm.",
+    "price": 1290,
+    "category": "necklaces",
+    "gemstones": ["tourmaline", "rubis"],
+    "colors": ["rose", "rouge"],
+    "image": "collier-baby-samarcande-rubis-or-jaune-tourmaline-rose_689fa020-5edb-46b1-99de-3e0748d9b9af",
+    "format": "jpg"
+  },
+  {
+    "id": 24,
+    "name": "Collier Dracones coeur rubis PM or jaune",
+    "description": "Or jaune 750/1000, rubis, chaîne 40cm.",
+    "price": 1150,
+    "category": "necklaces",
+    "gemstones": ["rubis"],
+    "colors": ["rouge"],
+    "image": "Collier-Dracones-rubis--coeur-PM-vermeil_4bde329a-8934-461d-ae98-e7eb13284af7",
+    "format": "jpg"
+  },
+  {
+    "id": 25,
+    "name": "Collier Baby amor or jaune et diamant blanc",
+    "description": "Or jaune 750/1000, diamant blanc 0.005cts.",
+    "price": 750,
+    "category": "necklaces",
+    "gemstones": ["diamant"],
+    "colors": ["blanc"],
+    "image": "collier-Baby-Amor-PM-or-jaune-diamant-emmanuelle-zysmancopiecopie2",
+    "format": "jpg"
+  },
+  {
+    "id": 26,
+    "name": "Collier Alex or jaune et Diamants",
+    "description": "Or jaune 750/1000, diamants 0.039cts, chaîne 40cm.",
+    "price": 950,
+    "category": "necklaces",
+    "gemstones": ["diamant"],
+    "colors": ["blanc"],
+    "image": "collier-alex-or-jaune-et-diamants-blancs-emmanuelle-zysman",
+    "format": "jpg"
+  },
+  {
+    "id": 27,
+    "name": "Collier Nila or jaune et diamants",
+    "description": "Or jaune 750/1000, diamants blancs, chaîne 40cm.",
+    "price": 1190,
+    "category": "necklaces",
+    "gemstones": ["diamant"],
+    "colors": ["blanc"],
+    "image": "Collier-Nila-or-jaune-et-diamants-emmanuelle-zysmancopie",
+    "format": "jpg"
+  },
+  {
+    "id": 28,
+    "name": "Collier Adama or jaune et diamant blanc",
+    "description": "Or jaune 750/1000, diamant blanc 0.005cts, chaîne 40cm.",
+    "price": 440,
+    "category": "necklaces",
+    "gemstones": ["diamant"],
+    "colors": ["blanc"],
+    "image": "Collier-Adama-vermeil-diamant-blanc-emmanuelle-zysman",
+    "format": "jpg"
+  },
+  {
+    "id": 29,
+    "name": "Colliers Twinkle or jaune diamant miel",
+    "description": "Or jaune 750/1000, diamant champagne, chaîne 40cm.",
+    "price": 1110,
+    "category": "necklaces",
+    "gemstones": ["diamant"],
+    "colors": ["blanc", "miel"],
+    "image": "colliers.-twinkle-or-jaune-diamant_f01debdc-3595-4788-89d1-fd6eae154455",
+    "format": "webp"
+  },
+  {
+    "id": 30,
+    "name": "Collier India Song or jaune tourmaline verte 1,08cts",
+    "description": "Or jaune 750/1000, tourmaline verte 1.08cts, chaîne 40cm.",
+    "price": 1860,
+    "category": "necklaces",
+    "gemstones": ["tourmaline"],
+    "colors": ["vert", "turquoise"],
+    "image": "collier.-india-song-or-jaune-tourmaline-verte-108cts_6cb7bea1-a4cb-4d41-9561-f865fb79fb59",
+    "format": "jpg"
+  },
+  {
+    "id": 31,
+    "name": "Bracelet Pégase plaqué or",
+    "description": "Or jaune 750/1000.",
+    "price": 130,
+    "category": "bracelets",
+    "gemstones": [],
+    "colors": [],
+    "image": "2Bracelet-Pegase-PM-laiton-plaque-or-emmanuelle-zysmancopie",
+    "format": "webp"
+  },
+  {
+    "id": 32,
+    "name": "Bracelet Shan martelé pierre plaqué or",
+    "description": "Laiton plaqué or 750/1000.",
+    "price": 110,
+    "category": "bracelets",
+    "gemstones": [],
+    "colors": [],
+    "image": "Bracelet-Shan-martele-pierre-laiton-plaque-or-emmanuelle-zysmancopie",
+    "format": "webp"
+  },
+  {
+    "id": 33,
+    "name": "Bracelet Lucky Star plaqué or",
+    "description": "Laiton plaqué or 750/1000.",
+    "price": 195,
+    "category": "bracelets",
+    "gemstones": [],
+    "colors": [],
+    "image": "Bracelet-Lucky-Star-Laiton-plaque-or-emmanuelle-zysmancopie",
+    "format": "webp"
+  },
+  {
+    "id": 34,
+    "name": "Bracelet Baby Amor or jaune et diamant blanc PM",
+    "description": "Or jaune 750/1000e, diamant blanc 0.005cts.",
+    "price": 280,
+    "category": "bracelets",
+    "gemstones": ["diamant"],
+    "colors": ["blanc"],
+    "image": "bracelet-baby-amor-pm-or-jaune-diamant-emmanuelle-zysman",
+    "format": "webp"
+  },
+  {
+    "id": 35,
+    "name": "Bracelet Link Or Jaune",
+    "description": "Or jaune 750/1000.",
+    "price": 460,
+    "category": "bracelets",
+    "gemstones": [],
+    "colors": [],
+    "image": "bracelet-link-or-jaune-emmanuelle-zysman_82794211-30a5-4783-af43-d9b2143efe77",
+    "format": "webp"
+  },
+  {
+    "id": 36,
+    "name": "Bracelet True Love or jaune",
+    "description": "Or jaune 750/1000.",
+    "price": 140,
+    "category": "bracelets",
+    "gemstones": [],
+    "colors": [],
+    "image": "bracelet-true-love-or-jaune",
+    "format": "webp"
+  },
+  {
+    "id": 37,
+    "name": "Bracelet Shan or jaune",
+    "description": "Or jaune 750/1000.",
+    "price": 520,
+    "category": "bracelets",
+    "gemstones": [],
+    "colors": [],
+    "image": "bracelet-shan-or-jaune",
+    "format": "webp"
+  },
+  {
+    "id": 38,
+    "name": "Bracelet de naissance martelé Baby Amor ID or jaune",
+    "description": "Or jaune 750/1000, personnalisable, 7 caractères maximum.",
+    "price": 370,
+    "category": "bracelets",
+    "gemstones": [],
+    "colors": [],
+    "image": "bracelet-baby-amor-ID-sacha-or-jaune-emmanuelle-zysman",
+    "format": "webp"
+  },
+  {
+    "id": 39,
+    "name": "Bracelet Nude or jaune",
+    "description": "Or jaune 750/1000.",
+    "price": 1690,
+    "category": "bracelets",
+    "gemstones": [],
+    "colors": [],
+    "image": "bracelet-nude-or-jaune",
+    "format": "webp"
+  },
+  {
+    "id": 40,
+    "name": "Bracelet Stella vermeil rubis",
+    "description": "Vermeil (argent 925/1000e plaqué or 750/1000e sur 5 microns), rubis",
+    "price": 470,
+    "category": "bracelets",
+    "gemstones": ["rubis"],
+    "colors": ["rouge"],
+    "image": "Bracelets-Stella-vermeil-rubis-Emmanuelle-Zysman",
+    "format": "webp"
   }
 ]

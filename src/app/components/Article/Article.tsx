@@ -13,7 +13,10 @@ export default function Article({ product }: ArticleProps) {
     <article className="Article">
       <Link href={`/${product.category}/${product.id}`}>
         <div className="imageContainer">
-          <img src={`/${product.category}/${product.image}.webp`} alt="" />
+          <img
+            src={`/${product.category}/${product.image}.${product.format}`}
+            alt=""
+          />
         </div>
         <div className="informationsContainer">
           <h3>{product.name}</h3>

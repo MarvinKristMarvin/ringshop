@@ -4,15 +4,18 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  margin-top: 57px;
+  background-color: $foregroundColor;
 
   .UnavailablePage {
+    margin-top: 112px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     font-family: "Jost", sans-serif;
     letter-spacing: 2px;
-    background-color: black;
+    background-color: $foregroundColor;
     h2 {
       font-size: 1rem;
       font-weight: 400;
@@ -22,25 +25,48 @@ body {
     }
   }
 
+  .PaymentPage {
+    margin-top: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Jost", sans-serif;
+    letter-spacing: 2px;
+    background-color: $backgroundColor;
+    h2 {
+      font-size: 1rem;
+      font-weight: 500;
+      color: $foregroundColor;
+      text-align: center;
+      margin-inline: 2rem;
+    }
+  }
+
   /* Home */
-  .categories {
-    background-color: $foregroundColor;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 0.125rem;
-    padding: 0.125rem;
-    @media (max-width: 600px) {
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(2, 1fr);
+  .HomePage {
+    margin-top: 112px;
+
+    .categories {
+      background-color: $foregroundColor;
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
       gap: 0.125rem;
       padding: 0.125rem;
+      @media (max-width: 600px) {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 0.125rem;
+        padding: 0.125rem;
+      }
     }
   }
 
   .BandsPage {
     background-color: $backgroundColor;
     width: 100%;
+
     h2 {
       text-align: center;
       margin-top: 2rem;
@@ -50,6 +76,10 @@ body {
     }
 
     .articles {
+      margin-top: 171px;
+      @media (max-width: 600px) {
+        margin-top: 161px;
+      }
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       padding: 2rem;
@@ -66,6 +96,7 @@ body {
   }
 
   .ProductPage {
+    margin-top: 112px;
     background-color: $backgroundColor;
     width: 100%;
     font-family: "Jost", sans-serif;
@@ -139,7 +170,7 @@ body {
 
             &:hover {
               cursor: pointer;
-              background-color: $softColor;
+              background-color: $backgroundColorHover;
             }
 
             &.buyNow {
@@ -150,7 +181,7 @@ body {
                 margin-left: 1rem;
               }
               &:hover {
-                background-color: $secondaryColor;
+                background-color: $foregroundColorHover;
               }
             }
           }

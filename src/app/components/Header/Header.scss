@@ -8,6 +8,10 @@
   color: $backgroundColor;
   background-color: $foregroundColor;
   border-bottom: solid 2px $secondaryColor;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+
   h1 {
     font-family: "Cinzel", serif;
     font-weight: 400;
@@ -63,6 +67,11 @@
             letter-spacing: 1px;
           }
         }
+      }
+      li:last-child {
+        width: 100%; /* Forces it onto a new line */
+        text-align: center; /* Centers the button */
+        margin-top: 1.5rem;
       }
     }
   }

@@ -7,4 +7,5 @@ export type Product = {
   gemstones: string[];
   colors: string[];
   image: string;
+  format: string;
 };

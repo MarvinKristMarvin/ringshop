@@ -5,6 +5,7 @@ import { Product } from "@/types";
 import { useParams } from "next/navigation";
 import { useState, useEffect } from "react";
 import { useStore } from "@/store/useStore";
+import { toast } from "react-hot-toast";
 
 export default function ProductPage() {
   const [product, setProduct] = useState<Product>();
@@ -27,18 +28,15 @@ export default function ProductPage() {
     fetchProduct();
   }, [id]);
 
-  useEffect(() => {
-    if (product) {
-      console.log("Product updated:", product);
-    }
-  }, [product]);
-
   if (product) {
     return (
       <main className="ProductPage">
         <section className="product">
           <div className="imageContainer">
-            <img src={`/${product.category}/${product.image}.webp`} alt="" />
+            <img
+              src={`/${product.category}/${product.image}.${product.format}`}
+              alt=""
+            />
           </div>
           <div className="informationsContainer">
             <h2>{product.name}</h2>
@@ -51,9 +49,19 @@ export default function ProductPage() {
             <div className="buttons">
               <button
                 className="addToBasket"
-                onClick={() =>
-                  setProductsInBasket([...productsInBasket, product])
-                }
+                onClick={() => {
+                  setProductsInBasket([...productsInBasket, product]);
+                  toast("Article ajouté au panier", {
+                    duration: 3000,
+                    style: {
+                      background: "#efefef",
+                      color: "#1c1c1c",
+                      borderRadius: "0px",
+                      fontFamily: "Jost, sans-serif",
+                      letterSpacing: "1px",
+                    },
+                  });
+                }}
               >
                 Ajouter au panier
               </button>

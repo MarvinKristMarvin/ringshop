@@ -53,10 +53,12 @@ export default function Header() {
               className="basketButton"
               onClick={() => setIsBasketOpen(true)}
             >
-              Panier{" "}
+              Mon panier
               <span className="redSpan">
-                {productsInBasket.length > 0 &&
-                  `(${productsInBasket.length} articles)`}
+                {productsInBasket.length === 1 &&
+                  ` (${productsInBasket.length} article)`}
+                {productsInBasket.length > 1 &&
+                  ` (${productsInBasket.length} articles)`}
               </span>
             </button>
           </li>

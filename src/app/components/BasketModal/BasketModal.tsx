@@ -14,6 +14,11 @@ export default function BasketModal() {
     setProductsInBasket,
   } = useStore();
 
+  const totalPrice = productsInBasket.reduce(
+    (acc, product) => acc + product.price,
+    0
+  );
+
   /* const handleRemoveItem = (indexToRemove: number) => {
     const updatedBasket = [...productsInBasket];
     updatedBasket.splice(indexToRemove, 1);
@@ -32,7 +37,7 @@ export default function BasketModal() {
       updatedBasket.splice(indexToRemove, 1);
       setProductsInBasket(updatedBasket);
       setRemovingIndex(null);
-    }, 300); // Duration should match your CSS transition time
+    }, 100); // Duration should match your CSS transition time
   };
 
   if (!isBasketOpen) return null;
@@ -44,7 +49,7 @@ export default function BasketModal() {
       ></div>
       <div className="menu">
         <header>
-          <h2>Panier</h2>
+          <h2>Mon panier</h2>
           <button
             className="closeBasketButton"
             onClick={() => setIsBasketOpen(false)}
@@ -79,10 +84,10 @@ export default function BasketModal() {
         </section>
         <div className="totalDiv">
           <span className="total">Total :</span>
-          <span className="totalPrice">800 &euro;</span>
+          <span className="totalPrice">{totalPrice} &euro;</span>
         </div>
         <div className="buttonDiv">
-          <Link href="/unavailable">
+          <Link href="/payment">
             <button onClick={() => setIsBasketOpen(false)}>Payer</button>
           </Link>
         </div>

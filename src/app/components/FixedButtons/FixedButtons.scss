@@ -1,12 +1,25 @@
 @use "src/app/_variables.scss" as *;
 
 .FixedButtons {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 9;
+  margin-top: 171px;
+  @media (max-width: 600px) {
+    margin-top: 161px;
+  }
+  background-color: $backgroundColor;
   .buttons {
+    z-index: 20;
+
     display: flex;
     justify-content: flex-start;
     border-bottom: solid 1px $softColor;
 
     button {
+      z-index: 9;
+
       padding: 1.25rem;
       padding-inline: 4rem;
       border: none;
