@@ -77,13 +77,13 @@ body {
 
     .articles {
       margin-top: 171px;
-      @media (max-width: 600px) {
-        margin-top: 161px;
-      }
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       padding: 2rem;
       gap: 2rem;
+      @media (max-width: 600px) {
+        margin-top: 161px;
+      }
       @media (max-width: 1400px) {
         grid-template-columns: repeat(2, 1fr);
       }

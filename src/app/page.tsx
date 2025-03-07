@@ -1,7 +1,5 @@
-import Image from "next/image";
 import HomeImage from "./components/HomeImage/HomeImage";
 import CategoryImage from "./components/CategoryImage/CategoryImage";
-import FixedButtons from "./components/FixedButtons/FixedButtons";
 
 export default function Home() {
   return (

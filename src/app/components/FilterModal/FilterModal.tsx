@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import "./FilterModal.scss";
 import { Product } from "@/types";
 import { useStore } from "@/store/useStore";

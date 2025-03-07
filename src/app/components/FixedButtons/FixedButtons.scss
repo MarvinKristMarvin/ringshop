@@ -5,9 +5,9 @@
   position: fixed;
   top: 0;
   z-index: 9;
-  margin-top: 171px;
+  margin-top: 169px;
   @media (max-width: 600px) {
-    margin-top: 161px;
+    margin-top: 159px;
   }
   background-color: $backgroundColor;
   .buttons {
@@ -29,6 +29,7 @@
       border-radius: 0;
       box-shadow: none;
       letter-spacing: 2px;
+      font-family: $font-jost;
 
       &:hover {
         cursor: pointer;

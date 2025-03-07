@@ -40,6 +40,9 @@
       li {
         margin-inline: min(2.5%, 1.25rem);
         margin-top: 1rem;
+        a {
+          font-family: "Jost", sans-serif;
+        }
         a.active {
           text-decoration: underline;
           text-underline-offset: 3px;

@@ -1,6 +1,5 @@
 "use client";
 
-import React, { use } from "react";
 import Article from "@/app/components/Article/Article";
 import FilterModal from "@/app/components/FilterModal/FilterModal";
 import FixedButtons from "@/app/components/FixedButtons/FixedButtons";
